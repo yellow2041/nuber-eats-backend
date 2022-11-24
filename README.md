@@ -15,3 +15,9 @@ style : 코드 스타일 혹은 포맷 등에 관한 커밋
 refactor : 코드 리팩토링에 대한 커밋
 test : 테스트 코드 수정에 대한 커밋
 ```
+
+## 프로젝트 시작
+```bash
+npm run start:dev           
+npm run test:watch             # jest
+```
