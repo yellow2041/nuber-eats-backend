@@ -19,5 +19,5 @@ test : 테스트 코드 수정에 대한 커밋
 ## 프로젝트 시작
 ```bash
 npm run start:dev           
-npm run test:watch             # jest
+npm run test:watch
 ```
