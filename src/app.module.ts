@@ -26,6 +26,7 @@ import { UploadsModule } from './uploads/uploads.module';
 @Module({
   imports: [
     GraphQLModule.forRoot<ApolloDriverConfig>({
+      playground: process.env.NODE_ENV !== 'production',
       // cors: {
       //   origin: 'http://localhost:3000',
       //   credentials: true,
